@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  background-color: #607D8B;
+}
+.preos-container {
+  width: 80%;
+  background-color: #f6f6f6;
+  margin: auto;
+}
+.preos-container .get-repos {
+  padding: 20px;
+  display: flex;
+  background-color: #d30000;
+}
+.preos-container .get-repos input {
+  width: 100%;
+  padding: 15px 20px;
+  border: none;
+  font-size: 20px;
+  height: 54px;
+}
+.preos-container .get-repos input:focus {
+  outline: 2px solid #f44336;
+}
+.preos-container .get-repos .get-button {
+  width: 140px;
+  margin-left: 10px;
+  height: 54px;
+  background-color: #000000;
+  color: #F99B94;
+  line-height: 54px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.preos-container .show-data {
+  padding: 20px;
+  background-color: #F09F99;
+}
+.preos-container .show-data .title {
+  padding: 15px;
+  margin: 5px;
+  background-color: #000000;
+  color: #F99B94;
+  display: flex;
+  justify-content: space-between;
+}
